@@ -1,0 +1,58 @@
+body{
+    width: 70%;
+    margin: 0 auto;
+}
+
+header{
+    color: ghostwhite;
+    background-color: rgb(50, 129, 144);
+    height: 220px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0%;
+}
+
+nav{
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 15px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+#content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+article{
+    background-color: rgb(148, 148, 148);
+    padding: 0px 10px;
+}
+
+section{
+    background-color: rgb(132, 132, 132);
+    padding: 0px 10px;
+}
+
+aside{
+    background-color: rgb(152, 152, 152);
+    padding: 0px 10px;
+    width: 20%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
